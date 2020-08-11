@@ -1,0 +1,33 @@
+.room {
+    border:{ 
+        left:1px solid rgba(0, 0, 0, 0.125);
+        right:1px solid rgba(0, 0, 0, 0.125);
+    }
+    &__list-item {
+        position: relative;
+        &::before {
+            display: inline-block;
+            content: "";
+            border: {
+                width: 4px;
+                style: solid;
+                radius: 50%;
+                color: green;
+            }
+            margin-right: 10px;
+        }
+    }
+    &__area{
+        &-users{
+            overflow-y: auto;
+        }
+        &-messages{
+            background-color: rgba(0, 0, 0, 0.05);
+            display: flex;
+            flex-direction: column;
+            flex:1;
+            justify-content: flex-end;
+            overflow-y: auto;
+        }
+    }
+}
