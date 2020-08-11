@@ -1,6 +1,8 @@
 # RealChatRoom
 
 Развертывание (порядок выполнения команд)
-1) npm i
-2)npm run build
-3)npm run server
+<ol>
+  <li><i>npm i</i>
+  <li><i>npm run build</i>
+  <li><i>npm run server</i>
+</ol>
